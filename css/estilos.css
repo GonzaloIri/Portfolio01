@@ -156,6 +156,13 @@ footer .fa-whatsapp {
     color: white;
 }
 
+/*Sobre-Mi*/
+
+#fotoPerfil{
+
+    border-radius: 600px;
+    height: 300px;
+}
 
 @media (max-width:750px) {
 
