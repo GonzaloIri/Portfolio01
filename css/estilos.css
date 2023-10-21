@@ -163,6 +163,39 @@ footer .fa-whatsapp {
     border-radius: 600px;
     height: 300px;
 }
+#stack{
+
+    background: rgb(125, 7, 7);
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+}
+
+#stack h2 {
+    color: white;
+    font-size: 24px;
+}
+
+#stack h3 {
+
+    font-size: 14px;
+    color:#282828;
+    font-weight: 300 ;
+}
+#stack .tecnologia{
+    font-size: 60px;
+    color:#6A6A6A;
+
+}
+
+#stack .tecnologia{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+#experiencia i, #formacion i{
+    
+    font-size: 50px;
+
+}
 
 @media (max-width:750px) {
 
