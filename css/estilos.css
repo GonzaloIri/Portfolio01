@@ -173,7 +173,10 @@ footer .fa-whatsapp {
     color: white;
     font-size: 24px;
 }
-
+#experiencia h2 {
+    color: #370a6d;
+    font-size: 24px;
+}
 #stack h3 {
 
     font-size: 14px;
@@ -191,11 +194,32 @@ footer .fa-whatsapp {
     text-align: center;
     border-radius: 5px;
 }
-#experiencia i, #formacion i{
+#formacion i{
     
     font-size: 50px;
 
 }
+#experiencia h3{
+
+    font-size: 18px;
+    color: #6a6a6a;
+}
+
+#experiencia h4{
+
+    color: #370a6d;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#experiencia h5{
+
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+
+/*media*/
 
 @media (max-width:750px) {
 
