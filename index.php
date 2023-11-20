@@ -1,3 +1,9 @@
+<?php
+
+$pg = "inicio";
+
+?>
+
 <!DOCTYPE html>
 <html lang="es" class="h-100">
   <head>
@@ -15,45 +21,7 @@
 
   <body id="inicio" class="d-flex flex-column h-100">
     <header class="container">
-      <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="proyectos.html">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav">
-              <li class="float-sm-end">
-                <a class="btn btn-rojo" href="contacto.html">
-                  Descargar mi CV
-                  <i class="fa-solid fa-download"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+     <?php include_once ("menu.php"); ?>
     </header>
     <main class="container">
       <div class="row">
@@ -69,7 +37,7 @@
         </div>
       </div>
       <div class="col-12 text-center pt-3 pb-5">
-        <a href="proyectos.html" class="btn btn-blanco shadow">
+        <a href="proyectos.php" class="btn btn-blanco shadow">
           Conoce mis Proyectos
         </a>
       </div>

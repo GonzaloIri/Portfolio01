@@ -218,7 +218,15 @@ footer .fa-whatsapp {
     font-size: 14px;
 }
 
+.gris{
+    -webkit-filter: grayscale(100%); /* para safari 6.0-9.0 */
+    filter:grayscale(100%);
+}
 
+.gris:hover {
+    -webkit-filter: grayscale(100%); /* para safari 6.0-9.0 */
+    filter:grayscale(0%);
+}
 /*media*/
 
 @media (max-width:750px) {
